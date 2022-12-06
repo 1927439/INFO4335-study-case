@@ -1,6 +1,13 @@
 import 'dart:io';
 
 void main() {
+  
+   var subj = {
+    'INFO4304': 'ICT and Islam\n',
+    'INFO4305': 'Cyber Law and Ethics\n',
+    'INFO4320': 'Animation Technique\n',
+    'INFO4335': 'Mobile Application Development\n'
+  };
 
   var choice;
   var number;
@@ -100,5 +107,7 @@ do {
   print("11.10am - 12.30pm   $mon3\t   $tue3\t   $wed3\t     $thu3\t    $fri3");
   print("13.50pm - 15.10pm   $mon4\t   $tue4\t   $wed4\t     $thu4\t    $fri4");
   print("15.10pm - 16.30pm   $mon5\t   $tue5\t   $wed5\t     $thu5\t    $fri5");
+  
+  print(subj);
 }
 
